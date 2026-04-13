@@ -2628,7 +2628,7 @@ input, select, textarea {
 					-ms-transition: opacity 0.5s ease;
 					transition: opacity 0.5s ease;
 					content: '';
-					display: block;
+					display: none;
 					position: absolute;
 					top: 0;
 					left: 0;
@@ -2706,7 +2706,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: rgb(255, 255, 255)fd;
 			}
 
 			.tiles article.style2 > .image:before {
